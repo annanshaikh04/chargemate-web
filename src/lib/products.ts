@@ -11,7 +11,7 @@ export const products: Product[] = [
   {
     slug: "core",
     title: "ChargeMate Core",
-    priceUsd: 89,
+    priceUsd: 99,
     description:
       "The world's first fully integrated charging hub with high-density power.",
     image: "/hero-product.png",
@@ -20,7 +20,7 @@ export const products: Product[] = [
   {
     slug: "travel-kit",
     title: "ChargeMate Travel Kit",
-    priceUsd: 119,
+    priceUsd: 129,
     description:
       "Everything you need for international travel—Core plus global adapter set.",
     image: "/side-detail.png",
