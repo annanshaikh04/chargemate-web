@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cordline — Design System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff8ff',
+              100: '#dbeefe',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              900: '#0c4a6e',
+            },
+            ink: {
+              50: '#f8fafc',
+              100: '#f1f5f9',
+              500: '#64748b',
+              800: '#1e293b',
+              900: '#0f172a',
+            },
+            accent: {
+              500: '#10b981',
+              600: '#059669',
+            },
+            danger: '#dc2626',
+            warning: '#d97706',
+            success: '#16a34a',
+          },
+          fontFamily: {
+            sans: ['DM Sans', 'system-ui', 'sans-serif'],
+            display: ['Sora', 'system-ui', 'sans-serif'],
+          },
+          borderRadius: {
+            'ds': '0.75rem',
+            'ds-lg': '1rem',
+          },
+          boxShadow: {
+            'card': '0 1px 2px rgb(0 0 0 / 0.06), 0 4px 12px rgb(0 0 0 / 0.06)',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body { font-family: 'DM Sans', system-ui, sans-serif; }
+  </style>
+</head>
+<body class="bg-ink-50 text-ink-900 antialiased">
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-ds focus:bg-white focus:px-4 focus:py-2 focus:shadow-card">Skip to content</a>
+
+  <header class="border-b border-ink-100 bg-white">
+    <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4">
+      <div class="flex items-center gap-2">
+        <span class="flex h-9 w-9 items-center justify-center rounded-ds bg-brand-700 font-display text-sm font-bold text-white">C</span>
+        <span class="font-display text-lg font-semibold tracking-tight text-ink-900">Cordline</span>
+        <span class="rounded-full bg-ink-100 px-2 py-0.5 text-xs font-medium text-ink-500">Design system</span>
+      </div>
+      <p class="hidden text-sm text-ink-500 sm:block">Portable cable control + power</p>
+    </div>
+  </header>
+
+  <main id="main" class="mx-auto max-w-6xl space-y-16 px-4 py-12">
+    <!-- 1. Branding -->
+    <section aria-labelledby="branding-heading" class="space-y-4">
+      <h1 id="branding-heading" class="font-display text-3xl font-bold text-ink-900">1. Branding</h1>
+      <p class="max-w-2xl text-ink-500">Placeholder wordmark: geometric “C” mark + Sora logotype. Replace with final SVG before launch.</p>
+      <div class="flex flex-wrap items-center gap-6 rounded-ds-lg border border-ink-100 bg-white p-8 shadow-card">
+        <div class="flex items-center gap-3">
+          <span class="flex h-14 w-14 items-center justify-center rounded-ds-lg bg-brand-700 font-display text-2xl font-bold text-white">C</span>
+          <div>
+            <p class="font-display text-2xl font-semibold">Cordline</p>
+            <p class="text-sm text-ink-500">Adjustable · Portable · Powered</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Color palette -->
+    <section aria-labelledby="colors-heading" class="space-y-4">
+      <h2 id="colors-heading" class="font-display text-2xl font-bold text-ink-900">2. Color palette</h2>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div>
+          <h3 class="mb-2 text-sm font-semibold text-ink-800">Primary (brand)</h3>
+          <div class="space-y-2">
+            <div class="flex items-center gap-3"><span class="h-10 w-10 rounded-ds bg-brand-700 ring-1 ring-black/5"></span><code class="text-xs text-ink-500">brand-700 #0369a1</code></div>
+            <div class="flex items-center gap-3"><span class="h-10 w-10 rounded-ds bg-brand-600 ring-1 ring-black/5"></span><code class="text-xs text-ink-500">brand-600</code></div>
+            <div class="flex items-center gap-3"><span class="h-10 w-10 rounded-ds bg-brand-500 ring-1 ring-black/5"></span><code class="text-xs text-ink-500">brand-500</code></div>
+          </div>
+        </div>
+        <div>
+          <h3 class="mb-2 text-sm font-semibold text-ink-800">Accent</h3>
+          <div class="flex items-center gap-3"><span class="h-10 w-10 rounded-ds bg-accent-500 ring-1 ring-black/5"></span><code class="text-xs text-ink-500">accent-500 #10b981</code></div>
+        </div>
+        <div>
+          <h3 class="mb-2 text-sm font-semibold text-ink-800">Neutrals (ink)</h3>
+          <div class="space-y-2">
+            <div class="flex items-center gap-3"><span class="h-10 w-10 rounded-ds bg-ink-900 ring-1 ring-black/5"></span><code class="text-xs text-ink-500">ink-900</code></div>
+            <div class="flex items-center gap-3"><span class="h-10 w-10 rounded-ds bg-ink-500 ring-1 ring-black/5"></span><code class="text-xs text-ink-500">ink-500</code></div>
+            <div class="flex items-center gap-3"><span class="h-10 w-10 rounded-ds border border-ink-100 bg-ink-50 ring-1 ring-black/5"></span><code class="text-xs text-ink-500">ink-50 bg</code></div>
+          </div>
+        </div>
+        <div>
+          <h3 class="mb-2 text-sm font-semibold text-ink-800">Semantic</h3>
+          <div class="space-y-2 text-sm">
+            <div class="flex items-center gap-2"><span class="h-4 w-4 rounded bg-success"></span> Success</div>
+            <div class="flex items-center gap-2"><span class="h-4 w-4 rounded bg-warning"></span> Warning</div>
+            <div class="flex items-center gap-2"><span class="h-4 w-4 rounded bg-danger"></span> Error</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Typography -->
+    <section aria-labelledby="type-heading" class="space-y-4">
+      <h2 id="type-heading" class="font-display text-2xl font-bold text-ink-900">3. Typography</h2>
+      <div class="space-y-6 rounded-ds-lg border border-ink-100 bg-white p-8 shadow-card">
+        <p class="text-sm text-ink-500">Display: Sora · Body: DM Sans</p>
+        <h1 class="font-display text-4xl font-bold tracking-tight text-ink-900">Heading 1 — Cordline One</h1>
+        <h2 class="font-display text-3xl font-semibold text-ink-900">Heading 2</h2>
+        <h3 class="font-display text-2xl font-semibold text-ink-900">Heading 3</h3>
+        <h4 class="text-xl font-semibold text-ink-900">Heading 4</h4>
+        <h5 class="text-lg font-semibold text-ink-900">Heading 5</h5>
+        <h6 class="text-base font-semibold text-ink-900">Heading 6</h6>
+        <p class="text-base leading-relaxed text-ink-800">Body — We built Cordline for people who move. Adjustable routing, a compact form factor, and onboard power mean fewer tangled cables and fewer dead batteries when it matters.</p>
+        <p class="text-sm text-ink-500">Small / muted — Ship dates and legal disclaimers use this style.</p>
+        <p class="text-base font-medium">Medium weight emphasis</p>
+        <p class="text-base font-bold">Bold callouts</p>
+      </div>
+    </section>
+
+    <!-- 4. Core components -->
+    <section aria-labelledby="components-heading" class="space-y-4">
+      <h2 id="components-heading" class="font-display text-2xl font-bold text-ink-900">4. Core components</h2>
+
+      <h3 class="text-lg font-semibold text-ink-800">Buttons</h3>
+      <div class="flex flex-wrap gap-3 rounded-ds-lg border border-ink-100 bg-white p-6 shadow-card">
+        <button type="button" class="rounded-ds bg-brand-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2">Primary</button>
+        <button type="button" class="rounded-ds border border-ink-200 bg-white px-4 py-2.5 text-sm font-semibold text-ink-800 hover:bg-ink-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2">Secondary</button>
+        <button type="button" class="rounded-ds px-4 py-2.5 text-sm font-semibold text-brand-700 hover:bg-brand-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2">Ghost</button>
+        <button type="button" disabled class="cursor-not-allowed rounded-ds bg-ink-100 px-4 py-2.5 text-sm font-semibold text-ink-400">Disabled</button>
+      </div>
+
+      <h3 class="text-lg font-semibold text-ink-800">Cards</h3>
+      <div class="grid gap-4 sm:grid-cols-2">
+        <article class="rounded-ds-lg border border-ink-100 bg-white p-5 shadow-card">
+          <p class="text-xs font-medium uppercase tracking-wide text-brand-600">Product</p>
+          <h4 class="mt-1 font-display text-lg font-semibold">Cordline Core</h4>
+          <p class="mt-2 text-sm text-ink-500">Placeholder description for catalog cards.</p>
+          <p class="mt-4 font-display text-xl font-bold text-ink-900">$89</p>
+        </article>
+        <article class="rounded-ds-lg border border-accent-500/30 bg-gradient-to-br from-accent-500/10 to-white p-5 shadow-card">
+          <p class="text-xs font-medium uppercase tracking-wide text-accent-600">Campaign</p>
+          <h4 class="mt-1 font-display text-lg font-semibold">Backer tier</h4>
+          <p class="mt-2 text-sm text-ink-500">Early supporter perks copy.</p>
+          <button type="button" class="mt-4 w-full rounded-ds bg-accent-600 py-2.5 text-sm font-semibold text-white hover:bg-accent-500">Select tier</button>
+        </article>
+      </div>
+
+      <h3 class="text-lg font-semibold text-ink-800">Form elements</h3>
+      <form class="max-w-md space-y-4 rounded-ds-lg border border-ink-100 bg-white p-6 shadow-card" onsubmit="return false;">
+        <div>
+          <label for="ds-email" class="block text-sm font-medium text-ink-800">Email</label>
+          <input id="ds-email" type="email" placeholder="you@example.com" class="mt-1 w-full rounded-ds border border-ink-200 px-3 py-2 text-sm outline-none ring-brand-500 focus:border-brand-500 focus:ring-2" />
+        </div>
+        <div>
+          <label for="ds-qty" class="block text-sm font-medium text-ink-800">Quantity</label>
+          <select id="ds-qty" class="mt-1 w-full rounded-ds border border-ink-200 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-brand-500">
+            <option>1</option>
+            <option>2</option>
+          </select>
+        </div>
+        <div class="flex items-center gap-2">
+          <input id="ds-check" type="checkbox" class="h-4 w-4 rounded border-ink-300 text-brand-700 focus:ring-brand-500" />
+          <label for="ds-check" class="text-sm text-ink-700">Notify me at launch</label>
+        </div>
+      </form>
+    </section>
+
+    <!-- 5. Layout & spacing -->
+    <section aria-labelledby="layout-heading" class="space-y-4">
+      <h2 id="layout-heading" class="font-display text-2xl font-bold text-ink-900">5. Layout and spacing</h2>
+      <div class="rounded-ds-lg border border-ink-100 bg-white p-6 shadow-card">
+        <p class="text-sm text-ink-500 mb-4">Spacing scale (Tailwind default 4px base). Prefer <code class="rounded bg-ink-100 px-1">4, 6, 8, 12, 16, 24</code> for section gaps.</p>
+        <div class="flex items-end gap-2">
+          <div class="flex flex-col items-center gap-1"><div class="w-8 bg-brand-500 h-1"></div><span class="text-xs text-ink-500">1</span></div>
+          <div class="flex flex-col items-center gap-1"><div class="w-8 bg-brand-500 h-2"></div><span class="text-xs text-ink-500">2</span></div>
+          <div class="flex flex-col items-center gap-1"><div class="w-8 bg-brand-500 h-4"></div><span class="text-xs text-ink-500">4</span></div>
+          <div class="flex flex-col items-center gap-1"><div class="w-8 bg-brand-500 h-6"></div><span class="text-xs text-ink-500">6</span></div>
+          <div class="flex flex-col items-center gap-1"><div class="w-8 bg-brand-500 h-8"></div><span class="text-xs text-ink-500">8</span></div>
+          <div class="flex flex-col items-center gap-1"><div class="w-8 bg-brand-500 h-12"></div><span class="text-xs text-ink-500">12</span></div>
+        </div>
+        <p class="mt-6 text-sm text-ink-500">Border radius: <code class="rounded bg-ink-100 px-1">rounded-ds (0.75rem)</code>, <code class="rounded bg-ink-100 px-1">rounded-ds-lg (1rem)</code> for cards and hero panels.</p>
+      </div>
+    </section>
+
+    <!-- 6. Navigation -->
+    <section aria-labelledby="nav-heading" class="space-y-4">
+      <h2 id="nav-heading" class="font-display text-2xl font-bold text-ink-900">6. Navigation</h2>
+      <p class="text-sm text-ink-500">Desktop: horizontal links + cart. Mobile: hamburger opens full-width panel (pattern below).</p>
+
+      <div class="rounded-ds-lg border border-ink-100 bg-white shadow-card">
+        <nav aria-label="Desktop example" class="flex items-center justify-between px-4 py-3">
+          <div class="flex items-center gap-2">
+            <span class="flex h-8 w-8 items-center justify-center rounded-ds bg-brand-700 text-xs font-bold text-white">C</span>
+            <span class="font-display font-semibold">Cordline</span>
+          </div>
+          <ul class="hidden items-center gap-8 text-sm font-medium text-ink-700 md:flex">
+            <li><a href="#" class="hover:text-brand-700">Home</a></li>
+            <li><a href="#" class="hover:text-brand-700">Shop</a></li>
+            <li><a href="#" class="hover:text-brand-700">Fund</a></li>
+            <li><a href="#" class="hover:text-brand-700">About</a></li>
+          </ul>
+          <div class="flex items-center gap-3">
+            <a href="#" class="hidden text-sm font-medium text-ink-700 hover:text-brand-700 sm:inline">Cart (0)</a>
+            <button type="button" class="rounded-ds p-2 text-ink-700 hover:bg-ink-50 md:hidden" aria-label="Open menu">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
+          </div>
+        </nav>
+        <div class="border-t border-ink-100 bg-ink-50 px-4 py-3 md:hidden">
+          <p class="text-xs font-medium text-ink-500">Mobile sidebar pattern</p>
+          <ul class="mt-2 space-y-2 text-sm font-medium text-ink-800">
+            <li><a href="#" class="block rounded-ds px-3 py-2 hover:bg-white">Home</a></li>
+            <li><a href="#" class="block rounded-ds px-3 py-2 hover:bg-white">Shop</a></li>
+            <li><a href="#" class="block rounded-ds px-3 py-2 hover:bg-white">Fund</a></li>
+            <li><a href="#" class="block rounded-ds px-3 py-2 hover:bg-white">About</a></li>
+            <li><a href="#" class="block rounded-ds px-3 py-2 hover:bg-white">Cart</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-xs text-ink-500">Heroicons: inline SVG (outline) used above; match stroke 1.5 in app.</p>
+    </section>
+  </main>
+
+  <footer class="border-t border-ink-100 bg-white py-8 text-center text-sm text-ink-500">
+    Cordline design system — internal prototype reference
+  </footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cordline — Legal (mockup)</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&family=Sora:wght@600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { brand: { 700: '#0369a1' }, ink: { 50: '#f8fafc', 100: '#f1f5f9', 500: '#64748b', 800: '#1e293b', 900: '#0f172a' } },
+          fontFamily: { sans: ['DM Sans', 'system-ui', 'sans-serif'], display: ['Sora', 'system-ui', 'sans-serif'] },
+          borderRadius: { 'ds': '0.75rem' },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-ink-50 text-ink-900 antialiased">
+  <header class="sticky top-0 z-40 border-b border-ink-100 bg-white/95 backdrop-blur">
+    <nav class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3" aria-label="Primary">
+      <a href="home.html" class="flex items-center gap-2">
+        <span class="flex h-9 w-9 items-center justify-center rounded-ds bg-brand-700 font-display text-sm font-bold text-white">C</span>
+        <span class="font-display text-lg font-semibold">Cordline</span>
+      </a>
+      <ul class="hidden items-center gap-8 text-sm font-medium text-ink-700 md:flex">
+        <li><a href="home.html" class="hover:text-brand-700">Home</a></li>
+        <li><a href="shop.html" class="hover:text-brand-700">Shop</a></li>
+        <li><a href="fund.html" class="hover:text-brand-700">Fund</a></li>
+        <li><a href="about.html" class="hover:text-brand-700">About</a></li>
+      </ul>
+      <a href="cart.html" class="text-sm font-semibold text-ink-800 hover:text-brand-700">Cart</a>
+    </nav>
+  </header>
+
+  <main id="main" class="mx-auto max-w-3xl px-4 py-12">
+    <h1 class="font-display text-3xl font-bold">Legal</h1>
+    <p class="mt-2 text-sm text-ink-500">Placeholder content for prototype. Replace with counsel-approved copy before launch.</p>
+
+    <section class="mt-10" aria-labelledby="privacy-heading">
+      <h2 id="privacy-heading" class="font-display text-xl font-semibold">Privacy policy</h2>
+      <p class="mt-4 text-sm leading-relaxed text-ink-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. This section will describe what data is collected, cookies, third parties, and user rights. Not legal advice.</p>
+    </section>
+
+    <section class="mt-10" aria-labelledby="terms-heading">
+      <h2 id="terms-heading" class="font-display text-xl font-semibold">Terms of use</h2>
+      <p class="mt-4 text-sm leading-relaxed text-ink-600">Placeholder terms governing use of this website, pre-order disclaimers, limitation of liability, and governing law. Replace entirely before production.</p>
+    </section>
+
+    <section class="mt-10" aria-labelledby="crowdfunding-heading">
+      <h2 id="crowdfunding-heading" class="font-display text-xl font-semibold">Crowdfunding disclaimer</h2>
+      <p class="mt-4 text-sm leading-relaxed text-ink-600">Backing a project is not a guarantee of delivery. Risks include manufacturing delays and design changes. Final legal language depends on your jurisdiction and platform.</p>
+    </section>
+  </main>
+
+  <footer class="border-t border-ink-100 bg-white">
+    <div class="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-8 sm:flex-row sm:items-center sm:justify-between">
+      <p class="text-sm text-ink-500">© Cordline (placeholder)</p>
+      <a href="legal.html" class="text-sm font-medium text-brand-700">Legal</a>
+    </div>
+  </footer>
+</body>
+</html>

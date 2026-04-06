@@ -1,0 +1,20 @@
+--- ppt/slides/slide1.xml ---
+FOUNDER Final Pitch ChargeMate Everyday Friction Sarah Stantial · Shannon Cullen · Ryan Jankowski · Rohan Pratap Reddy Ravula · Annanahmed Shaikh
+
+--- ppt/slides/slide2.xml ---
+The Problem Not always having the right cable/adapter when you need it and not being able to use someone else's. Why This Matters: Wastes time looking for the correct charger Dead devices during traveling or paying another charger Carrying multiple chargers causes tangling and wasted time Waste money and productivity getting a new cable
+
+--- ppt/slides/slide3.xml ---
+Who Is Affected Who is affected by this? The scale of this problem is vast. Virtually every American carries a device — and the majority carry several. The charging cable problem isn't a niche inconvenience; it's a universal daily friction point affecting hundreds of millions of people. Statistics: 98 81 62 People We've Directly Talked to: Industry workers Office workers Students Travelers All ages
+
+--- ppt/slides/slide4.xml ---
+Industry Context Growing Dependence on Multi-Device Connectivity: Professionals and students increasingly rely on constant connectivity for productivity and communication Fragmented Charging & Adapter Market: Current solutions are disconnected Rising Mobility & Travel Demand: Growth in remote work, travel, and digital lifestyles increases need for portable power solutions International travel introduces incompatible plug standards (US, EU, UK, etc.) Consumer Behavior: Workarounds ≠ Solutions: Users carry multiple chargers, buy duplicates, or rely on partial fixes These solutions create clutter, inefficiency, and added cost Market Opportunity: Global travel adapter market estimated at ~$1–2.4B and growing Opportunity exists for a fully integrated, all-in-one charging system
+
+--- ppt/slides/slide5.xml ---
+Implementation Strategic Investors & Partners: Companies like  Google ,  Apple ,  Amazon ,  HP ,  Samsung , and  Dell  have enormous incentive to support a solution — fixing a problem their own users experience daily directly boosts loyalty, reputation, and revenue.
+
+--- ppt/slides/slide6.xml ---
+Manufacturing Plan Weight: approx. 12-14 oz Size: 150mm × 50mm × 30–77mm Manufacturing: The casings will be injection molded with plastic, and the components will be soldered together and inserted into the casing. How will we actually produce it? 1 Partner with a Contract Manufacturer (OEM/ODM) 2 Provide Our Design + Requirements 3 Send manufacturer: CAD model (your MVP) Functional requirements (battery size, ports, voltage, etc.) 4 Tooling & Setup Create injection molds for the outer casing Set up assembly line
+
+--- ppt/slides/slide7.xml ---
+Competitors 1 Travel Adapters e.g., Vintar 2 Portable Chargers / Power Banks e.g., Ansody 3 Cable Converters e.g., YBBGANTE Key Market Gap: Users must carry multiple separate devices Existing products solve one piece of the problem, not the full experience No solution delivers power + conversion + cable management in one system
