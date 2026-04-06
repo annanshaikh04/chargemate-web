@@ -1,20 +1,44 @@
 --- ppt/slides/slide1.xml ---
-FOUNDER Final Pitch ChargeMate Everyday Friction Sarah Stantial · Shannon Cullen · Ryan Jankowski · Rohan Pratap Reddy Ravula · Annanahmed Shaikh
+MVP Presentation Group Everyday Friction Members Sarah  Stantial , Shannon Cullen, Ryan Jankowski, Rohan Pratap Reddy Ravula,  Annanahmed  Shaikh
+
+--- ppt/slides/slide10.xml ---
+Rough Cost  Assumptions Component Estimated Cost Battery Pack (Li-ion) $10 – $15 PCB & Electronics $8 – $15 Adapter Modules (US/EU/UK etc.) $6 – $10 Cables & Connectors $3 – $5 Outer Casing (molded) $6 – $8 Assembly & Labor $5 – $8 Packaging $1 – $2 Total Estimated Cost $40 – $65 Target Pricing Strategy Expected retail price: $99 – $129   Gross margin: ~50 – 58%   Positioned as a premium, all-in-one solution Rough Cost Assumptions
+
+--- ppt/slides/slide11.xml ---
+Timeline  Phase 1, 2, and 3: Complete Phase 4: User Feedback & Testing (Week 4–5) Presented concept to target users  Collected feedback on usability, need, and interest Phase 5: Refinement & Next Steps (Week 5+) Adjusted design based on feedback  Evaluated cost assumptions and manufacturing feasibility Planned next iteration (physical prototype + deeper testing) 
+
+--- ppt/slides/slide12.xml ---
+Feedback, Observations,  and Key Insights Throughout the design process... Guidance from Feedback Added a battery pack because simply  having an adapter did not meet the needs of our  target demographic Needs to eliminate wires and confusion not create more (Integrated wires) Guidance from Observations Current MVP  needs  a more integral design MVP needs to be slim and in style for todays market Users are solving for convenience and reliability, not just charging Key Insights ¾ Testimonials through interviews plus class breakouts showed willingness to pay for this  product Market Estimated at ~$1.1B – $2.4B globally  (2025) Market projected to double in 5 years
+
+--- ppt/slides/slide13.xml ---
+Hypothesis Validation What We Tested Presented CAD-based MVP to target users  Walked through real-world use scenarios (travel, work, daily use)  Gathered feedback Key Findings Majority of users confirmed:  Frequent frustration with cables, adapters, and battery life  Difficulty staying organized and prepared while traveling  Strong interest in a single, all-in-one solution
+
+--- ppt/slides/slide14.xml ---
+Thank you! Any Questions?
+
+--- ppt/slides/slide15.xml ---
+Appendix AGS Devices. (2025, July 8).  BOM cost in 2025: Calculations + how to reduce it .  https://www.agsdevices.com/bom-cost/ 3ERP. (n.d.).  How much do injection molding costs and how to reduce them .  https://www.3erp.com/blog/injection-molding-cost/ PCBCart . (n.d.).  How much does PCB assembly cost: A complete guide .  https://www.pcbcart.com/article/content/how-much-does-pcb-assembly-cost.html The Insight Partners. (2024).  Travel adapter market report .  https://www.theinsightpartners.com/reports/travel-adapter-market Market  Intelo . (2025).  Travel adapter market report .  https://marketintelo.com/report/travel-adapter-market
 
 --- ppt/slides/slide2.xml ---
-The Problem Not always having the right cable/adapter when you need it and not being able to use someone else's. Why This Matters: Wastes time looking for the correct charger Dead devices during traveling or paying another charger Carrying multiple chargers causes tangling and wasted time Waste money and productivity getting a new cable
+Hypothesis Target User  Young entrepreneurs, business professionals, students, and frequent travelers  Problem Experience recurring friction w ith  managing cables, adapters, and  battery  life while on  the go. Solution This frustration is significant enough that they would pay for an all-in-one  universal adapter and charging solution.
 
 --- ppt/slides/slide3.xml ---
-Who Is Affected Who is affected by this? The scale of this problem is vast. Virtually every American carries a device — and the majority carry several. The charging cable problem isn't a niche inconvenience; it's a universal daily friction point affecting hundreds of millions of people. Statistics: 98 81 62 People We've Directly Talked to: Industry workers Office workers Students Travelers All ages
+Product Concept  (adapter + power bank combo) Concept Overview An all-in-one adapter + power bank system designed to eliminate the friction of managing cables, plug types, and battery life while on the go. Core Idea “One device. Every plug. Always powered.”  A compact, modular charging solution that integrates: Cable conversion  Power conversion  Portable battery supply 
 
 --- ppt/slides/slide4.xml ---
-Industry Context Growing Dependence on Multi-Device Connectivity: Professionals and students increasingly rely on constant connectivity for productivity and communication Fragmented Charging & Adapter Market: Current solutions are disconnected Rising Mobility & Travel Demand: Growth in remote work, travel, and digital lifestyles increases need for portable power solutions International travel introduces incompatible plug standards (US, EU, UK, etc.) Consumer Behavior: Workarounds ≠ Solutions: Users carry multiple chargers, buy duplicates, or rely on partial fixes These solutions create clutter, inefficiency, and added cost Market Opportunity: Global travel adapter market estimated at ~$1–2.4B and growing Opportunity exists for a fully integrated, all-in-one charging system
+Basic  Components Universal Compatibility  Supports global plug types (US, EU, UK, etc.)  Multi-Device Charging Up to 8 ports for simultaneous use  5 interchangeable female ports stored within the device Interchangeable Cable Ends USB-C base with attachable ends (USB-A, Lightning, etc.)  Built-In Power Bank Detachable battery for charging without outlets  Retractable & Organized Design Cables and plugs stored within the device (no loose parts) 
 
 --- ppt/slides/slide5.xml ---
-Implementation Strategic Investors & Partners: Companies like  Google ,  Apple ,  Amazon ,  HP ,  Samsung , and  Dell  have enormous incentive to support a solution — fixing a problem their own users experience daily directly boosts loyalty, reputation, and revenue.
+MVP Type MVP Type A low- fidelity digital  prototype (CAD model) was chosen  Purpose Visualize form, functionality, and component integration for user testing and feedback
 
 --- ppt/slides/slide6.xml ---
-Manufacturing Plan Weight: approx. 12-14 oz Size: 150mm × 50mm × 30–77mm Manufacturing: The casings will be injection molded with plastic, and the components will be soldered together and inserted into the casing. How will we actually produce it? 1 Partner with a Contract Manufacturer (OEM/ODM) 2 Provide Our Design + Requirements 3 Send manufacturer: CAD model (your MVP) Functional requirements (battery size, ports, voltage, etc.) 4 Tooling & Setup Create injection molds for the outer casing Set up assembly line
+CAD  Model s Adapter   Part Battery   Part Full Assembly
 
 --- ppt/slides/slide7.xml ---
-Competitors 1 Travel Adapters e.g., Vintar 2 Portable Chargers / Power Banks e.g., Ansody 3 Cable Converters e.g., YBBGANTE Key Market Gap: Users must carry multiple separate devices Existing products solve one piece of the problem, not the full experience No solution delivers power + conversion + cable management in one system
+Dimensions Length  – 150 mm (~5.9 in) Height  – 50 mm (~2 in) Adaptor width  – 30 mm (~1.2 in) Battery width  not including plugs – 30 mm Battery width  including plugs – 77 mm (~3 in)
+
+--- ppt/slides/slide8.xml ---
+Real-world Value Eliminating Everyday Friction Removes the need to carry multiple chargers, adapters, and cables  Time & Convenience One device replaces 5+ essential charging items  Faster setup, no searching, untangling, or switching adapters  Reliability & Preparedness Ensures users stay powered in critical moments (travel, meetings, emergencies)  Cost Efficiency Over Time Replaces the need to purchase multiple adapters and chargers  Reduces loss/replacement costs from forgotten or misplaced accessories 
+
+--- ppt/slides/slide9.xml ---
+High-level Manufacturing  Flow Design Finalization Refine CAD model into production-ready design  Component Sourcing Identify suppliers Prototyping & Testing Develop physical prototype from CAD design Manufacturing & Assembly Injection molding for outer casing  PCB fabrication, electronics, and internal wiring assembly  Integration of battery, adapters, and cable systems Quality Control Functional testing of every unit  Packaging & Distribution Retail and e-commerce readiness 

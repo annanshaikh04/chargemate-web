@@ -18,7 +18,7 @@ def get_pptx_text(path):
     except Exception as e:
         return f"Error reading {path}: {str(e)}"
 
-target = r"image/Final-Pitch-Presentationpdf (1).pptx"
+target = r"doc/MVP Presentation_Everyday Friction_ChargeMate.pptx"
 output_file = "final_ppt_text.txt"
 text = get_pptx_text(target)
 
